@@ -1,5 +1,7 @@
 # Dashboard Application
 
+## Deployed Link [Live](https://accu-dashboard.vercel.app/)
+
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
