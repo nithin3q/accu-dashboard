@@ -53,22 +53,28 @@ const initialState = {
     },
     {
       id: 3,
-      name: 'Security Overview',
+      name: 'Registry Scan',
       widgets: [
         {
           id: 5,
-          name: 'nithin',
-          type: 'fellow',
+          name: 'Image Risk Assessment',
+          type: 'Assessment',
           data: {
-            // Add relevant data fields here
+            critical: 9,
+            High: 150,
+            Low: 36,
+            none: 18,
           },
         },
         {
           id: 6,
-          name: 'kumar',
-          type: 'appari',
+          name: 'Image Security Issues',
+          type: 'Issues',
           data: {
-            // Add relevant data fields here
+            critical: 2,
+            High: 2,
+            Low: 2,
+            none: 1,
           },
         },
       ],

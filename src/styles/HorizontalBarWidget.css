@@ -1,0 +1,85 @@
+.horizontal-bar-widget {
+  margin: 20px 0;
+}
+
+.bar-container {
+  display: flex;
+  height: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.bar-segment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 12px;
+  text-transform: capitalize;
+  /* border-radius: 8px;  */
+  height: 100%; /* Ensure the segment covers the full height of the container */
+}
+
+.data-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-top:40px;
+}
+
+.data-item {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  width: 48%; /* Adjust to make two items per row */
+  margin-bottom: 20px; /* Space between rows */
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.data-label {
+  font-weight: bold;
+}
+
+.data-value {
+  margin-left: 5px;
+}
+
+.bar-segment.critical {
+  background-color: #c10509;
+}
+
+.bar-segment.high {
+  background-color: #ff7f0e;
+}
+
+.bar-segment.low {
+  background-color: #d8c04a;
+}
+
+.bar-segment.none {
+  background-color: #afb2b4;
+}
+
+.dot.critical {
+  background-color: #c10509;
+}
+
+.dot.high {
+  background-color: #ff7f0e;
+}
+
+.dot.low {
+  background-color: #d8d44a;
+}
+
+.dot.none {
+  background-color: #afb2b4;
+}
