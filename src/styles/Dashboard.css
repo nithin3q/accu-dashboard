@@ -1,0 +1,53 @@
+/* src/styles/Dashboard.css */
+
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 20px;
+  background-color: #f3f9ff ;
+  
+}
+
+.widget-card-container {
+  flex: 1;
+  min-width: 400px; 
+  margin: 3px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.widget-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Gap between items in the flex container */
+}
+
+.widget-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: none !important;
+  /* min-height: 240px ; */
+}
+
+.add-widget-form {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+
+
+.widget-card.add-widget-card {
+  
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  height: 200px; 
+}
+

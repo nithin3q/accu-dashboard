@@ -1,0 +1,93 @@
+.custom-modal .modal-dialog {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 50%;
+  margin: 0;
+}
+.modal-dialog{
+ margin: 0;
+ margin-right: 0px !important;
+}
+.custom-modal .modal-header .btn-close {
+  filter: brightness(0) invert(1);
+}
+
+.custom-modal .modal-content {
+  height: 100%;
+  border-radius: 0;
+}
+
+.custom-modal .modal-header {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.custom-modal .modal-body {
+  overflow-y: auto;
+  height: 76vh;
+  right: 0 !important;
+  padding: 0px !important;
+}
+
+.custom-modal .modal-footer {
+  border-top: 1px solid #f8f8f8;
+}
+.modal-headers{
+  font-size: 20px !important;
+  color: #ffffff !important;
+  background-color: #030c5b;
+  border-radius: 0px !important;
+}
+
+.nav-link {
+  position: relative;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #eae8e8 !important;
+}
+
+.category-nav-link.active {
+  border-bottom: 2px solid rgb(3, 3, 108) !important; 
+}
+
+.custom-btn{
+  background-color: #030c5b;
+  color: white;
+  border-radius: 10px;
+  padding: 7px 15px 7px 15px;
+  border: none;
+  font-size: 16px;
+}
+.custom-btn2{
+  background-color: #ffffff;
+  color: #030c5b;
+  border-radius: 10px;
+  padding: 7px 15px 7px 15px;
+  border: 1px solid #030c5b;
+  margin-right: 10px !important;
+  font-size: 16px;
+}
+  
+    .modal {
+      --bs-modal-zindex: 1055;
+      --bs-modal-width: 700px !important;
+      --bs-modal-padding: 02rem !important;
+      --bs-modal-margin: 0rem !important;
+      --bs-modal-color: ;
+      --bs-modal-bg: var(--bs-body-bg);
+      --bs-modal-border-color: var(--bs-border-color-translucent);
+      --bs-modal-border-width: var(--bs-border-width);
+      --bs-modal-border-radius: var(--bs-border-radius-lg);
+      --bs-modal-box-shadow: var(--bs-box-shadow-sm);
+      --bs-modal-inner-border-radius: calc(var(--bs-border-radius-lg) -(var(--bs-border-width)));
+      --bs-modal-header-padding-x: 1rem;
+      --bs-modal-header-padding-y: 1rem;
+      --bs-modal-header-padding: 1rem 1rem;
+      --bs-modal-header-border-color: var(--bs-border-color);
+      --bs-modal-header-border-width: var(--bs-border-width);
+      --bs-modal-title-line-height: 1.5;
+      --bs-modal-footer-gap: 0.5rem;
+      --bs-modal-footer-bg: ;
+      --bs-modal-footer-border-color: var(--bs-border-color);
+      --bs-modal-footer-border-width: var(--bs-border-width);
+  }
